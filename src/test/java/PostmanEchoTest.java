@@ -18,7 +18,7 @@ public class PostmanEchoTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Phone number: +7-812-556-78-96"))
+                .body("data", equalTo("Phone number: +1-812-556-78-96"))
         ;
     }
 
